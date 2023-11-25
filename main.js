@@ -1010,7 +1010,7 @@ function loadTrack(track_index) {
   curr_track.src = track_list[track_index].path;
   curr_track.load();
 
-  track_art.style.backgroundImage = "url(" + track_list[track_index].image + ")";
+  track_art.style.backgroundImage = track_list[track_index].image;
   track_name.textContent = track_list[track_index].name;
   track_folder.textContent = track_list[track_index].folder;
   track_artist.textContent = track_list[track_index].artist;

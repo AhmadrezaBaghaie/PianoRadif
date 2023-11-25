@@ -37,6 +37,10 @@ body {
   .track-name {
     font-size: 3rem;
   }
+
+  .track-folder {
+    font-size: 1.5rem;
+  }
   
   .track-artist {
     font-size: 1.5rem;
