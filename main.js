@@ -22,969 +22,969 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
     {
-      "name": "1-Moqaddameh-(Abuata)",
+      "name": "1-Moqaddameh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Abuata/1-Moqaddameh-(Abuata).mp3",
+      "path": "Piano - Barkhordar/Abuata/1-Moqaddameh.mp3",
       "folder": "Abuata"
     },
     {
-      "name": "2-Zarbi-(Abuata)",
+      "name": "2-Zarbi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Abuata/2-Zarbi-(Abuata).mp3",
+      "path": "Piano - Barkhordar/Abuata/2-Zarbi.mp3",
       "folder": "Abuata"
     },
     {
-      "name": "3-Chaharmezrab-(Abuata)",
+      "name": "3-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Abuata/3-Chaharmezrab-(Abuata).mp3",
+      "path": "Piano - Barkhordar/Abuata/3-Chaharmezrab.mp3",
       "folder": "Abuata"
     },
     {
-      "name": "4-Daramad-(Abuata)",
+      "name": "4-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Abuata/4-Daramad-(Abuata).mp3",
+      "path": "Piano - Barkhordar/Abuata/4-Daramad.mp3",
       "folder": "Abuata"
     },
     {
-      "name": "5-Sayakhi-(Abuata)",
+      "name": "5-Sayakhi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Abuata/5-Sayakhi-(Abuata).mp3",
+      "path": "Piano - Barkhordar/Abuata/5-Sayakhi.mp3",
       "folder": "Abuata"
     },
     {
-      "name": "6-Yatimak-(Abuata)",
+      "name": "6-Yatimak",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Abuata/6-Yatimak-(Abuata).mp3",
+      "path": "Piano - Barkhordar/Abuata/6-Yatimak.mp3",
       "folder": "Abuata"
     },
     {
-      "name": "7-Hejaz-(Abuata)",
+      "name": "7-Hejaz",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Abuata/7-Hejaz-(Abuata).mp3",
+      "path": "Piano - Barkhordar/Abuata/7-Hejaz.mp3",
       "folder": "Abuata"
     },
     {
-      "name": "8-Chaharpareh-(Abuata)",
+      "name": "8-Chaharpareh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Abuata/8-Chaharpareh-(Abuata).mp3",
+      "path": "Piano - Barkhordar/Abuata/8-Chaharpareh.mp3",
       "folder": "Abuata"
     },
     {
-      "name": "9-Gabri-(Abuata)",
+      "name": "9-Gabri",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Abuata/9-Gabri-(Abuata).mp3",
+      "path": "Piano - Barkhordar/Abuata/9-Gabri.mp3",
       "folder": "Abuata"
     },
     {
-      "name": "10-Masihaei-(Abuata)",
+      "name": "10-Masihaei",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Abuata/10-Masihaei-(Abuata).mp3",
+      "path": "Piano - Barkhordar/Abuata/10-Masihaei.mp3",
       "folder": "Abuata"
     },
     {
-      "name": "1-Moqaddameh-(Afshari)",
+      "name": "1-Moqaddameh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Afshari/1-Moqaddameh-(Afshari).mp3",
+      "path": "Piano - Barkhordar/Afshari/1-Moqaddameh.mp3",
       "folder": "Afshari"
     },
     {
-      "name": "2-Daramad-(Afshari)",
+      "name": "2-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Afshari/2-Daramad-(Afshari).mp3",
+      "path": "Piano - Barkhordar/Afshari/2-Daramad.mp3",
       "folder": "Afshari"
     },
     {
-      "name": "3-Chaharmezrab-(Afshari)",
+      "name": "3-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Afshari/3-Chaharmezrab-(Afshari).mp3",
+      "path": "Piano - Barkhordar/Afshari/3-Chaharmezrab.mp3",
       "folder": "Afshari"
     },
     {
-      "name": "4-Jameh-daran-(Afshari)",
+      "name": "4-Jameh-daran",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Afshari/4-Jameh-daran-(Afshari).mp3",
+      "path": "Piano - Barkhordar/Afshari/4-Jameh-daran.mp3",
       "folder": "Afshari"
     },
     {
-      "name": "5-Zarbi-(Afshari)",
+      "name": "5-Zarbi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Afshari/5-Zarbi-(Afshari).mp3",
+      "path": "Piano - Barkhordar/Afshari/5-Zarbi.mp3",
       "folder": "Afshari"
     },
     {
-      "name": "6-Qaraei-(Afshari)",
+      "name": "6-Qaraei",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Afshari/6-Qaraei-(Afshari).mp3",
+      "path": "Piano - Barkhordar/Afshari/6-Qaraei.mp3",
       "folder": "Afshari"
     },
     {
-      "name": "7-Araq-(Afshari)",
+      "name": "7-Araq",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Afshari/7-Araq-(Afshari).mp3",
+      "path": "Piano - Barkhordar/Afshari/7-Araq.mp3",
       "folder": "Afshari"
     },
     {
-      "name": "8-Rohab-(Afshari)",
+      "name": "8-Rohab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Afshari/8-Rohab-(Afshari).mp3",
+      "path": "Piano - Barkhordar/Afshari/8-Rohab.mp3",
       "folder": "Afshari"
     },
     {
-      "name": "9-Masnavi-(Afshari)",
+      "name": "9-Masnavi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Afshari/9-Masnavi-(Afshari).mp3",
+      "path": "Piano - Barkhordar/Afshari/9-Masnavi.mp3",
       "folder": "Afshari"
     },
     {
-      "name": "1-Moqaddameh-(Bayat-e Esfahan)",
+      "name": "1-Moqaddameh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Esfahan/1-Moqaddameh-(Bayat-e Esfahan).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Esfahan/1-Moqaddameh.mp3",
       "folder": "Bayat-e-Esfahan"
     },
     {
-      "name": "2-Chaharmezrab-(Bayat-e Esfahan)",
+      "name": "2-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Esfahan/2-Chaharmezrab-(Bayat-e Esfahan).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Esfahan/2-Chaharmezrab.mp3",
       "folder": "Bayat-e-Esfahan"
     },
     {
-      "name": "3-Daramad-(Bayat-e Esfahan)",
+      "name": "3-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Esfahan/3-Daramad-(Bayat-e Esfahan).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Esfahan/3-Daramad.mp3",
       "folder": "Bayat-e-Esfahan"
     },
     {
-      "name": "4-Bayat-e Rajeh-o Zarbi-(Bayat-e Esfahan)",
+      "name": "4-Bayat-e Rajeh-o Zarbi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Esfahan/4-Bayat-e Rajeh-o Zarbi-(Bayat-e Esfahan).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Esfahan/4-Bayat-e Rajeh-o Zarbi.mp3",
       "folder": "Bayat-e-Esfahan"
     },
     {
-      "name": "5-Oshshaq-(Bayat-e Esfahan)",
+      "name": "5-Oshshaq",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Esfahan/5-Oshshaq-(Bayat-e Esfahan).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Esfahan/5-Oshshaq.mp3",
       "folder": "Bayat-e-Esfahan"
     },
     {
-      "name": "6-Masnavi-(Bayat-e Esfahan)",
+      "name": "6-Masnavi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Esfahan/6-Masnavi-(Bayat-e Esfahan).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Esfahan/6-Masnavi.mp3",
       "folder": "Bayat-e-Esfahan"
     },
     {
-      "name": "1-Moqaddameh-(Bayat-e Tork)",
+      "name": "1-Moqaddameh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/1-Moqaddameh-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/1-Moqaddameh.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "2-Chaharmezrab-(Bayat-e Tork)",
+      "name": "2-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/2-Chaharmezrab-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/2-Chaharmezrab.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "3-Daramad-(Bayat-e Tork)",
+      "name": "3-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/3-Daramad-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/3-Daramad.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "4-Kereshmeh-(Bayat-e Tork)",
+      "name": "4-Kereshmeh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/4-Kereshmeh-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/4-Kereshmeh.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "5-Dad-(Bayat-e Tork)",
+      "name": "5-Dad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/5-Dad-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/5-Dad.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "6-Zarbi-(Bayat-e Tork)",
+      "name": "6-Zarbi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/6-Zarbi-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/6-Zarbi.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "7-Ruhol-arvah-(Bayat-e Tork)",
+      "name": "7-Ruhol-arvah",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/7-Ruhol-arvah-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/7-Ruhol-arvah.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "8-Mehdi Zarrabi-(Bayat-e Tork)",
+      "name": "8-Mehdi Zarrabi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/8-Mehdi Zarrabi-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/8-Mehdi Zarrabi.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "9-Dogah-(Bayat-e Tork)",
+      "name": "9-Dogah",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/9-Dogah-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/9-Dogah.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "10-Shahabi-(Bayat-e Tork)",
+      "name": "10-Shahabi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/10-Shahabi-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/10-Shahabi.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "11-Feyli-(Bayat-e Tork)",
+      "name": "11-Feyli",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/11-Feyli-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/11-Feyli.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "12-Shekasteh-(Bayat-e Tork)",
+      "name": "12-Shekasteh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/12-Shekasteh-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/12-Shekasteh.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "13-Masnavi-(Bayat-e Tork)",
+      "name": "13-Masnavi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Bayat-e-Tork/13-Masnavi-(Bayat-e Tork).mp3",
+      "path": "Piano - Barkhordar/Bayat-e-Tork/13-Masnavi.mp3",
       "folder": "Bayat-e-Tork"
     },
     {
-      "name": "1-Chaharmezrab-(Chahargah)",
+      "name": "1-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/1-Chaharmezrab-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/1-Chaharmezrab.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "2-Daramad-(Chahargah)",
+      "name": "2-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/2-Daramad-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/2-Daramad.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "3-Naghmeh-Zang-e Shotor-(Chahargah)",
+      "name": "3-Naghmeh-Zang-e Shotor",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/3-Naghmeh-Zang-e Shotor-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/3-Naghmeh-Zang-e Shotor.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "4-Mardafkan-(Chahargah)",
+      "name": "4-Mardafkan",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/4-Mardafkan-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/4-Mardafkan.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "5-Zabol-(Chahargah)",
+      "name": "5-Zabol",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/5-Zabol-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/5-Zabol.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "6-Chaharmezrab-e Zabol-(Chahargah)",
+      "name": "6-Chaharmezrab-e Zabol",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/6-Chaharmezrab-e Zabol-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/6-Chaharmezrab-e Zabol.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "7-Basteh Negar-(Chahargah)",
+      "name": "7-Basteh Negar",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/7-Basteh Negar-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/7-Basteh Negar.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "8-Hesar-(Chahargah)",
+      "name": "8-Hesar",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/8-Hesar-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/8-Hesar.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "9-Mokhalef-(Chahargah)",
+      "name": "9-Mokhalef",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/9-Mokhalef-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/9-Mokhalef.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "10-Masnavi-e Mokhalef-(Chahargah)",
+      "name": "10-Masnavi-e Mokhalef",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/10-Masnavi-e Mokhalef-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/10-Masnavi-e Mokhalef.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "11-Hodi-o Pahlavi-(Chahargah)",
+      "name": "11-Hodi-o Pahlavi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/11-Hodi-o Pahlavi-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/11-Hodi-o Pahlavi.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "12-Rajaz-(Chahargah)",
+      "name": "12-Rajaz",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/12-Rajaz-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/12-Rajaz.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "13-Mansuri-(Chahargah)",
+      "name": "13-Mansuri",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/13-Mansuri-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/13-Mansuri.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "14-Maghlub-(Chahargah)",
+      "name": "14-Maghlub",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/14-Maghlub-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/14-Maghlub.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "15-Naghmeh Maghlub-(Chahargah)",
+      "name": "15-Naghmeh Maghlub",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Chahargah/15-Naghmeh Maghlub-(Chahargah).mp3",
+      "path": "Piano - Barkhordar/Chahargah/15-Naghmeh Maghlub.mp3",
       "folder": "Chahargah"
     },
     {
-      "name": "1-Moqaddameh-(Dashti)",
+      "name": "1-Moqaddameh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Dashti/1-Moqaddameh-(Dashti).mp3",
+      "path": "Piano - Barkhordar/Dashti/1-Moqaddameh.mp3",
       "folder": "Dashti"
     },
     {
-      "name": "2-Zarbi-e Daramad-(Dashti)",
+      "name": "2-Zarbi-e Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Dashti/2-Zarbi-e Daramad-(Dashti).mp3",
+      "path": "Piano - Barkhordar/Dashti/2-Zarbi-e Daramad.mp3",
       "folder": "Dashti"
     },
     {
-      "name": "3-Chaharmezrab-(Dashti)",
+      "name": "3-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Dashti/3-Chaharmezrab-(Dashti).mp3",
+      "path": "Piano - Barkhordar/Dashti/3-Chaharmezrab.mp3",
       "folder": "Dashti"
     },
     {
-      "name": "4-Daramad-(Dashti)",
+      "name": "4-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Dashti/4-Daramad-(Dashti).mp3",
+      "path": "Piano - Barkhordar/Dashti/4-Daramad.mp3",
       "folder": "Dashti"
     },
     {
-      "name": "5-Oshshaq-(Dashti)",
+      "name": "5-Oshshaq",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Dashti/5-Oshshaq-(Dashti).mp3",
+      "path": "Piano - Barkhordar/Dashti/5-Oshshaq.mp3",
       "folder": "Dashti"
     },
     {
-      "name": "6-Khosrow-o Shirin-(Dashti)",
+      "name": "6-Khosrow-o Shirin",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Dashti/6-Khosrow-o Shirin-(Dashti).mp3",
+      "path": "Piano - Barkhordar/Dashti/6-Khosrow-o Shirin.mp3",
       "folder": "Dashti"
     },
     {
-      "name": "7-Gilaki-(Dashti)",
+      "name": "7-Gilaki",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Dashti/7-Gilaki-(Dashti).mp3",
+      "path": "Piano - Barkhordar/Dashti/7-Gilaki.mp3",
       "folder": "Dashti"
     },
     {
-      "name": "1-Moqaddameh-(Homayun)",
+      "name": "1-Moqaddameh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/1-Moqaddameh-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/1-Moqaddameh.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "2-Chaharmezrab-(Homayun)",
+      "name": "2-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/2-Chaharmezrab-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/2-Chaharmezrab.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "3-Daramad-(Homayun)",
+      "name": "3-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/3-Daramad-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/3-Daramad.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "4-Naghmeh-Zange-e shotor-(Homayun)",
+      "name": "4-Naghmeh-Zange-e shotor",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/4-Naghmeh-Zange-e shotor-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/4-Naghmeh-Zange-e shotor.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "5-Chakavak-(Homayun)",
+      "name": "5-Chakavak",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/5-Chakavak-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/5-Chakavak.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "6-Bidad-(Homayun)",
+      "name": "6-Bidad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/6-Bidad-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/6-Bidad.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "7-Oshshaq-(Homayun)",
+      "name": "7-Oshshaq",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/7-Oshshaq-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/7-Oshshaq.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "8-Neydavud-(Homayun)",
+      "name": "8-Neydavud",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/8-Neydavud-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/8-Neydavud.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "9-Suz-o Godaz-(Homayun)",
+      "name": "9-Suz-o Godaz",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/9-Suz-o Godaz-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/9-Suz-o Godaz.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "10-Abolchap-(Homayun)",
+      "name": "10-Abolchap",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/10-Abolchap-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/10-Abolchap.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "11-Zanguleh-(Homayun)",
+      "name": "11-Zanguleh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/11-Zanguleh-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/11-Zanguleh.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "12-Noruz-e Arab-(Homayun)",
+      "name": "12-Noruz-e Arab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/12-Noruz-e Arab-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/12-Noruz-e Arab.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "13-Leyli-o Majnun-(Homayun)",
+      "name": "13-Leyli-o Majnun",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/13-Leyli-o Majnun-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/13-Leyli-o Majnun.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "14-Raz-o Niyaz-(Homayun)",
+      "name": "14-Raz-o Niyaz",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/14-Raz-o Niyaz-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/14-Raz-o Niyaz.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "15-Shushtari-(Homayun)",
+      "name": "15-Shushtari",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/15-Shushtari-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/15-Shushtari.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "16-Mansuri-(Homayun)",
+      "name": "16-Mansuri",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/16-Mansuri-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/16-Mansuri.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "17-Bakhtiari-(Homayun)",
+      "name": "17-Bakhtiari",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/17-Bakhtiari-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/17-Bakhtiari.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "18-Zarbi-(Homayun)",
+      "name": "18-Zarbi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Homayoun/18-Zarbi-(Homayun).mp3",
+      "path": "Piano - Barkhordar/Homayoun/18-Zarbi.mp3",
       "folder": "Homayoun"
     },
     {
-      "name": "1-Daramad-(Mahur)",
+      "name": "1-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Mahoor/1-Daramad-(Mahur).mp3",
+      "path": "Piano - Barkhordar/Mahoor/1-Daramad.mp3",
       "folder": "Mahoor"
     },
     {
-      "name": "2-Kereshmeh-(Mahur)",
+      "name": "2-Kereshmeh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Mahoor/2-Kereshmeh-(Mahur).mp3",
+      "path": "Piano - Barkhordar/Mahoor/2-Kereshmeh.mp3",
       "folder": "Mahoor"
     },
     {
-      "name": "3-Dad-(Mahur)",
+      "name": "3-Dad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Mahoor/3-Dad-(Mahur).mp3",
+      "path": "Piano - Barkhordar/Mahoor/3-Dad.mp3",
       "folder": "Mahoor"
     },
     {
-      "name": "4-Chaharmezrab-(Mahur)",
+      "name": "4-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Mahoor/4-Chaharmezrab-(Mahur).mp3",
+      "path": "Piano - Barkhordar/Mahoor/4-Chaharmezrab.mp3",
       "folder": "Mahoor"
     },
     {
-      "name": "5-Kharazmi-(Mahur)",
+      "name": "5-Kharazmi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Mahoor/5-Kharazmi-(Mahur).mp3",
+      "path": "Piano - Barkhordar/Mahoor/5-Kharazmi.mp3",
       "folder": "Mahoor"
     },
     {
-      "name": "6-Feyli-(Mahur)",
+      "name": "6-Feyli",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Mahoor/6-Feyli-(Mahur).mp3",
+      "path": "Piano - Barkhordar/Mahoor/6-Feyli.mp3",
       "folder": "Mahoor"
     },
     {
-      "name": "7-Shekasteh-(Mahur)",
+      "name": "7-Shekasteh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Mahoor/7-Shekasteh-(Mahur).mp3",
+      "path": "Piano - Barkhordar/Mahoor/7-Shekasteh.mp3",
       "folder": "Mahoor"
     },
     {
-      "name": "8-Delkash-(Mahur)",
+      "name": "8-Delkash",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Mahoor/8-Delkash-(Mahur).mp3",
+      "path": "Piano - Barkhordar/Mahoor/8-Delkash.mp3",
       "folder": "Mahoor"
     },
     {
-      "name": "9-Neyriz-(Mahur)",
+      "name": "9-Neyriz",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Mahoor/9-Neyriz-(Mahur).mp3",
+      "path": "Piano - Barkhordar/Mahoor/9-Neyriz.mp3",
       "folder": "Mahoor"
     },
     {
-      "name": "10-Araq-(Mahur)",
+      "name": "10-Araq",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Mahoor/10-Araq-(Mahur).mp3",
+      "path": "Piano - Barkhordar/Mahoor/10-Araq.mp3",
       "folder": "Mahoor"
     },
     {
-      "name": "1-Moqaddameh-(Nava)",
+      "name": "1-Moqaddameh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/1-Moqaddameh-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/1-Moqaddameh.mp3",
       "folder": "Nava"
     },
     {
-      "name": "2-Chaharmezrab-(Nava)",
+      "name": "2-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/2-Chaharmezrab-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/2-Chaharmezrab.mp3",
       "folder": "Nava"
     },
     {
-      "name": "3-Daramad-(Nava)",
+      "name": "3-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/3-Daramad-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/3-Daramad.mp3",
       "folder": "Nava"
     },
     {
-      "name": "4-Naghmeh-(Nava)",
+      "name": "4-Naghmeh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/4-Naghmeh-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/4-Naghmeh.mp3",
       "folder": "Nava"
     },
     {
-      "name": "5-Oshshaq-(Nava)",
+      "name": "5-Oshshaq",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/5-Oshshaq-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/5-Oshshaq.mp3",
       "folder": "Nava"
     },
     {
-      "name": "6-Bayat-e Ajam-(Nava)",
+      "name": "6-Bayat-e Ajam",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/6-Bayat-e Ajam-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/6-Bayat-e Ajam.mp3",
       "folder": "Nava"
     },
     {
-      "name": "7-Takht-e Taqdis-(Nava)",
+      "name": "7-Takht-e Taqdis",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/7-Takht-e Taqdis-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/7-Takht-e Taqdis.mp3",
       "folder": "Nava"
     },
     {
-      "name": "8-Rohab-(Nava)",
+      "name": "8-Rohab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/8-Rohab-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/8-Rohab.mp3",
       "folder": "Nava"
     },
     {
-      "name": "9-Neyshaburak-(Nava)",
+      "name": "9-Neyshaburak",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/9-Neyshaburak-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/9-Neyshaburak.mp3",
       "folder": "Nava"
     },
     {
-      "name": "10-Nahoft-(Nava)",
+      "name": "10-Nahoft",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/10-Nahoft-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/10-Nahoft.mp3",
       "folder": "Nava"
     },
     {
-      "name": "11-Hoseyni-(Nava)",
+      "name": "11-Hoseyni",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/11-Hoseyni-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/11-Hoseyni.mp3",
       "folder": "Nava"
     },
     {
-      "name": "12-Oj-o Hazeez-(Nava)",
+      "name": "12-Oj-o Hazeez",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Nava/12-Oj-o Hazeez-(Nava).mp3",
+      "path": "Piano - Barkhordar/Nava/12-Oj-o Hazeez.mp3",
       "folder": "Nava"
     },
     {
-      "name": "1-Chaharmezrab-(Rast-Panjgah)",
+      "name": "1-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/1-Chaharmezrab-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/1-Chaharmezrab.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "2-Daramad-(Rast-Panjgah)",
+      "name": "2-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/2-Daramad-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/2-Daramad.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "3-Naghmeh-(Rast-Panjgah)",
+      "name": "3-Naghmeh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/3-Naghmeh-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/3-Naghmeh.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "4-Khosravani-(Rast-Panjgah)",
+      "name": "4-Khosravani",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/4-Khosravani-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/4-Khosravani.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "5-Neyriz-(Rast-Panjgah)",
+      "name": "5-Neyriz",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/5-Neyriz-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/5-Neyriz.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "6-Panjgah-(Rast-Panjgah)",
+      "name": "6-Panjgah",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/6-Panjgah-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/6-Panjgah.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "7-Bayate Ajam-(Rast-Panjgah)",
+      "name": "7-Bayate Ajam",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/7-Bayate Ajam-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/7-Bayate Ajam.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "8-Shekasteh-(Rast-Panjgah)",
+      "name": "8-Shekasteh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/8-Shekasteh-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/8-Shekasteh.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "9-Zanguleh-(Rast-Panjgah)",
+      "name": "9-Zanguleh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/9-Zanguleh-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/9-Zanguleh.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "10-Zabol-(Rast-Panjgah)",
+      "name": "10-Zabol",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/10-Zabol-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/10-Zabol.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "11-Muyeh-(Rast-Panjgah)",
+      "name": "11-Muyeh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/11-Muyeh-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/11-Muyeh.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "12-Sepehr-(Rast-Panjgah)",
+      "name": "12-Sepehr",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/12-Sepehr-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/12-Sepehr.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "13-Forud-(Rast-Panjgah)",
+      "name": "13-Forud",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Rast-Panjgah/13-Forud-(Rast-Panjgah).mp3",
+      "path": "Piano - Barkhordar/Rast-Panjgah/13-Forud.mp3",
       "folder": "Rast-Panjgah"
     },
     {
-      "name": "1-Moqaddameh-(Segah)",
+      "name": "1-Moqaddameh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/1-Moqaddameh-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/1-Moqaddameh.mp3",
       "folder": "Segah"
     },
     {
-      "name": "2-Chaharmezrab-(Segah)",
+      "name": "2-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/2-Chaharmezrab-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/2-Chaharmezrab.mp3",
       "folder": "Segah"
     },
     {
-      "name": "3-Daramad-(Segah)",
+      "name": "3-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/3-Daramad-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/3-Daramad.mp3",
       "folder": "Segah"
     },
     {
-      "name": "4-Mardafkan-(Segah)",
+      "name": "4-Mardafkan",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/4-Mardafkan-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/4-Mardafkan.mp3",
       "folder": "Segah"
     },
     {
-      "name": "5-Muyeh-(Segah)",
+      "name": "5-Muyeh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/5-Muyeh-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/5-Muyeh.mp3",
       "folder": "Segah"
     },
     {
-      "name": "6-Zabol-(Segah)",
+      "name": "6-Zabol",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/6-Zabol-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/6-Zabol.mp3",
       "folder": "Segah"
     },
     {
-      "name": "7-Chaharmezrab-e Zabol-(Segah)",
+      "name": "7-Chaharmezrab-e Zabol",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/7-Chaharmezrab-e Zabol-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/7-Chaharmezrab-e Zabol.mp3",
       "folder": "Segah"
     },
     {
-      "name": "8-Basteh Negar-(Segah)",
+      "name": "8-Basteh Negar",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/8-Basteh Negar-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/8-Basteh Negar.mp3",
       "folder": "Segah"
     },
     {
-      "name": "9-Mokhalef-(Segah)",
+      "name": "9-Mokhalef",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/9-Mokhalef-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/9-Mokhalef.mp3",
       "folder": "Segah"
     },
     {
-      "name": "10-Masnavi-e Mokhalef-(Segah)",
+      "name": "10-Masnavi-e Mokhalef",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/10-Masnavi-e Mokhalef-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/10-Masnavi-e Mokhalef.mp3",
       "folder": "Segah"
     },
     {
-      "name": "11-Maghlub-(Segah)",
+      "name": "11-Maghlub",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/11-Maghlub-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/11-Maghlub.mp3",
       "folder": "Segah"
     },
     {
-      "name": "12-Zang-e Shotor-(Segah)",
+      "name": "12-Zang-e Shotor",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Segah/12-Zang-e Shotor-(Segah).mp3",
+      "path": "Piano - Barkhordar/Segah/12-Zang-e Shotor.mp3",
       "folder": "Segah"
     },
     {
-      "name": "1-Daramad-(Shur)",
+      "name": "1-Daramad",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/1-Daramad-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/1-Daramad.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "2-Chaharmezrab-(Shur)",
+      "name": "2-Chaharmezrab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/2-Chaharmezrab-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/2-Chaharmezrab.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "3-Rohab-(Shur)",
+      "name": "3-Rohab",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/3-Rohab-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/3-Rohab.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "4-Kereshmeh-(Shur)",
+      "name": "4-Kereshmeh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/4-Kereshmeh-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/4-Kereshmeh.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "5-Shahin-(Shur)",
+      "name": "5-Shahin",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/5-Shahin-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/5-Shahin.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "6-Razavi-(Shur)",
+      "name": "6-Razavi",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/6-Razavi-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/6-Razavi.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "7-Muyeh-(Shur)",
+      "name": "7-Muyeh",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/7-Muyeh-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/7-Muyeh.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "8-Salmak-(Shur)",
+      "name": "8-Salmak",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/8-Salmak-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/8-Salmak.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "9-Hoseyni-(Shur)",
+      "name": "9-Hoseyni",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/9-Hoseyni-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/9-Hoseyni.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "10-Ozzal-(Shur)",
+      "name": "10-Ozzal",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/10-Ozzal-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/10-Ozzal.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "11-Gereyli-(Shur)",
+      "name": "11-Gereyli",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/11-Gereyli-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/11-Gereyli.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "12-Shahnaz-(Shur)",
+      "name": "12-Shahnaz",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/12-Shahnaz-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/12-Shahnaz.mp3",
       "folder": "Shoor"
     },
     {
-      "name": "13-Kord-e Bayat-(Shur)",
+      "name": "13-Kord-e Bayat",
       "artist": "Bahar Barkhordar",
       "image": "Piano - Barkhordar/piano.png",
-      "path": "Piano - Barkhordar/Shoor/13-Kord-e Bayat-(Shur).mp3",
+      "path": "Piano - Barkhordar/Shoor/13-Kord-e Bayat.mp3",
       "folder": "Shoor"
     }
   ];
