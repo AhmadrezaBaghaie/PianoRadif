@@ -1,6 +1,7 @@
 body {
     background-color: lightgreen;
   
+    font-family: 'Lora', serif;
     /* Smoothly transition the background color */
     transition: background-color .5s;
   }
